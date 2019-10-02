@@ -1,5 +1,19 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.App a {
+  color: white;
+}
+
+.App a:hover {
+  color: #eee;
 }
 
 .App-logo {
@@ -7,16 +21,51 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.App-header h2 {
+  margin: 1em 0 .5em;
+}
+
+.App-header h5 {
+  margin: 0 0 2em;
+}
+
+.App-content {
+  width: 500px;
+  font-size: calc(10px + 1vmin);
+  margin: 0 auto;
+  text-align: left;
+}
+
+.App-content p {
+  line-height: 1.2em;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.App-content ul {
+  list-style: none;
+  padding: 0 0 1em;
+}
+
+.App-content ul li {
+  line-height: 1.4em;
+  text-align: left;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+@media (max-width: 576px) {
+  .App {
+    padding: 0 0.5rem;
+  }
+
+  .App-content {
+    width: auto;
+  }
 }
