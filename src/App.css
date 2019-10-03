@@ -71,7 +71,17 @@
 }
 
 .App-footer {
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.App-footer a {  
+  opacity: .9;
+}
+
+.App-footer a:hover {
+  opacity: 1;
 }
 
 .App-social {
@@ -83,6 +93,13 @@
   margin-right: 0px;
 }
 
-.App-social > img {
-  width: 50px;
+figure.icon {
+  width: 2em;
+  height: 2em;
+}
+
+figure.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
