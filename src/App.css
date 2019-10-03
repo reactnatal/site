@@ -69,3 +69,18 @@
     width: auto;
   }
 }
+
+.App-socialmidias {
+  display: flex;
+  justify-content: left;  
+}
+
+.App-socialmidias .instagram-logo{
+  width: 35%;
+  height: 35%;
+}
+
+.App-socialmidias .telegram-logo{
+  width: 35%;
+  height: 35%;
+}
