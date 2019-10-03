@@ -17,6 +17,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint src --fix"
+    }
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -31,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "husky": "^3.0.8"
   }
 }
