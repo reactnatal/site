@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7fa0af03.chunk.css",
-    "main.js": "/static/js/main.d77ce60e.chunk.js",
-    "main.js.map": "/static/js/main.d77ce60e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2089d7d5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2089d7d5.js.map",
-    "static/js/2.511a8a48.chunk.js": "/static/js/2.511a8a48.chunk.js",
-    "static/js/2.511a8a48.chunk.js.map": "/static/js/2.511a8a48.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d8fb6a916538fb14fd976ba4423478a3.js": "/precache-manifest.d8fb6a916538fb14fd976ba4423478a3.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.7fa0af03.chunk.css.map": "/static/css/main.7fa0af03.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.25bf045c.svg"
+    "main.css": "/reactnatal.github.io/static/css/main.7fa0af03.chunk.css",
+    "main.js": "/reactnatal.github.io/static/js/main.a7db85dc.chunk.js",
+    "main.js.map": "/reactnatal.github.io/static/js/main.a7db85dc.chunk.js.map",
+    "runtime-main.js": "/reactnatal.github.io/static/js/runtime-main.91ba36cd.js",
+    "runtime-main.js.map": "/reactnatal.github.io/static/js/runtime-main.91ba36cd.js.map",
+    "static/js/2.511a8a48.chunk.js": "/reactnatal.github.io/static/js/2.511a8a48.chunk.js",
+    "static/js/2.511a8a48.chunk.js.map": "/reactnatal.github.io/static/js/2.511a8a48.chunk.js.map",
+    "index.html": "/reactnatal.github.io/index.html",
+    "precache-manifest.9779707ad05c02b2a8625a24f59cad6e.js": "/reactnatal.github.io/precache-manifest.9779707ad05c02b2a8625a24f59cad6e.js",
+    "service-worker.js": "/reactnatal.github.io/service-worker.js",
+    "static/css/main.7fa0af03.chunk.css.map": "/reactnatal.github.io/static/css/main.7fa0af03.chunk.css.map",
+    "static/media/logo.svg": "/reactnatal.github.io/static/media/logo.25bf045c.svg"
   }
 }
