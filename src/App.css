@@ -69,3 +69,20 @@
     width: auto;
   }
 }
+
+.App-footer {
+  margin-top: 20px;
+}
+
+.App-social {
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.App-social:last-of-type {
+  margin-right: 0px;
+}
+
+.App-social > img {
+  width: 50px;
+}

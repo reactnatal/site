@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
+import instagram from "./social-icons/instagram.svg";
+import telegram from "./social-icons/telegram.svg";
 import "./App.css";
 
 function App() {
@@ -19,6 +21,14 @@ function App() {
         <p>* Por favor, se possivel trazer notebook para participar do mini curso.</p>
         <p>** É novo por aqui? Preencha <a href="https://docs.google.com/forms/d/e/1FAIpQLSfoa7A91QVldfTJJz7o6chDN4MxMADtjLuSJ5TlipqI6swL4A/viewform" target="_blank" rel="noopener noreferrer">nossa pesquisa</a> para conhecermos melhor o perfil da comunidade.</p>
       </aside>
+      <footer className="App-footer">
+        <a href="https://t.me/joinchat/H1k6RhYZPseq9vZ1W8A5Eg" target="_blank" className="App-social" >
+          <img src={telegram} alt="telegram" />
+        </a>
+        <a href="https://instagram.com/reactnatal" target="_blank" className="App-social">
+          <img src={instagram} alt="instagram" />
+        </a>
+      </footer>
     </div>
   );
 }
