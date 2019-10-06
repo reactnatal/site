@@ -1,6 +1,6 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 import Icon from './components/Icon';
 
@@ -15,7 +15,7 @@ function App() {
       <aside className="App-content">
         <ul>
           <li>
-            Local: 
+            Local:
             <strong>
               <a
                 href="http://jerimumhacker.space"
@@ -36,8 +36,10 @@ function App() {
             )
           </li>
           <li>
-            Data: 
-            <strong>26/10 das 14h às 18h</strong>.
+            Data:
+            <strong>
+              26/10 das 14h às 18h
+            </strong>.
           </li>
           <li>
             Inscrições:
@@ -54,8 +56,8 @@ function App() {
           </li>
         </ul>
         <p>
-          * Por favor, se possivel trazer notebook para participar do mini
-          curso.
+          * Por favor, se possível trazer notebook para participar do
+          mini-curso.
         </p>
         <p>
           ** É novo por aqui? Preencha

@@ -29,7 +29,7 @@
 }
 
 .App-header h2 {
-  margin: 1em 0 .5em;
+  margin: 1em 0 0.5em;
 }
 
 .App-header h5 {
@@ -49,6 +49,10 @@
   margin: 0;
 }
 
+.App-content p a[href*="docs"] {
+  margin: 0 4px;
+}
+
 .App-content ul {
   list-style: none;
   padding: 0 0 1em;
@@ -58,6 +62,10 @@
   line-height: 1.4em;
   text-align: left;
   color: white;
+}
+
+.App-content li > strong {
+  margin-left: 2px;
 }
 
 @media (max-width: 576px) {
@@ -76,8 +84,8 @@
   margin-top: 2rem;
 }
 
-.App-footer a {  
-  opacity: .9;
+.App-footer a {
+  opacity: 0.9;
 }
 
 .App-footer a:hover {
