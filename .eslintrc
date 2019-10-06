@@ -1,5 +1,11 @@
 {
-  "extends": ["react-app", "airbnb", "plugin:jsx-a11y/recommended"],
+  "extends": [
+    "react-app",
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react"
+  ],
   "plugins": ["jsx-a11y"],
   "rules": {
     "react/jsx-filename-extension": [
@@ -7,6 +13,8 @@
       {
         "extensions": [".js"]
       }
-    ]
+    ],
+    "react/prop-types": 0,
+    "global-require": "warn"
   }
 }
