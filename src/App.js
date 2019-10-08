@@ -15,7 +15,7 @@ function App() {
       <aside className="App-content">
         <ul>
           <li>
-            Local: 
+            Local:{" "}
             <strong>
               <a
                 href="http://jerimumhacker.space"
@@ -36,11 +36,11 @@ function App() {
             )
           </li>
           <li>
-            Data: 
+            Data:{" "}
             <strong>26/10 das 14h às 18h</strong>.
           </li>
           <li>
-            Inscrições:
+            Inscrições:{" "}
             <strong>
               <a
                 href="https://bit.ly/2pmQLAh"
@@ -58,14 +58,14 @@ function App() {
           curso.
         </p>
         <p>
-          ** É novo por aqui? Preencha
+          ** É novo por aqui? Preencha{" "}
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfoa7A91QVldfTJJz7o6chDN4MxMADtjLuSJ5TlipqI6swL4A/viewform"
             target="_blank"
             rel="noopener noreferrer"
           >
             nossa pesquisa
-          </a>
+          </a>{" "}
           para conhecermos melhor o perfil da comunidade.
         </p>
       </aside>
