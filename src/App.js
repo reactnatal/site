@@ -43,11 +43,11 @@ function App() {
             Inscrições:{" "}
             <strong>
               <a
-                href="https://bit.ly/2pmQLAh"
+                href="https://bit.ly/2oBRgqe"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://bit.ly/2pmQLAh
+                https://bit.ly/2oBRgqe
               </a>
             </strong>
             . (Vagas limitadas)
