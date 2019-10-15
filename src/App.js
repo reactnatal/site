@@ -50,7 +50,6 @@ function App() {
                 https://bit.ly/2oBRgqe
               </a>
             </strong>
-            . (Vagas limitadas)
           </li>
         </ul>
         <p>
