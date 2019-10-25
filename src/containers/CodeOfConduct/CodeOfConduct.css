@@ -1,0 +1,24 @@
+.Conduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 1em auto 2em;
+}
+
+@media (min-width: 768px) {
+  .Conduct {
+    margin: 1em auto;
+  }
+}
+
+.Conduct > p,
+.Conduct > div {
+  width: 100%;
+}
+
+.Conduct-links {
+  display: flex;
+  flex-direction: column;
+}
