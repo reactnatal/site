@@ -1,0 +1,25 @@
+.Navegacao {
+  margin: 10px 30px;
+}
+
+.Navegacao ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.Navegacao ul li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+.Navegacao ul li:hover {
+  cursor: pointer;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.Navegacao ul li a {
+  text-decoration: none;
+}
